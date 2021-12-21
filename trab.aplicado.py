@@ -17,6 +17,10 @@ b = float(input(""))
 if (f(a)*f(b) < 0):
 
     print("f({:.0f})= {:.2f}\nf({:.0f})= {:.2f}".format(a,f(a),b,f(b)))
+    
+    # se entra a for maior que b, o b<a fica a>b
+    if(a>b):
+      b,a = a,b
 
     """
     cria-se um while loop que para somente se o 
@@ -26,9 +30,12 @@ if (f(a)*f(b) < 0):
     
     while(interval >= 0.1):
 
-        root =  a  + (interval/2) 
+        media = (a+b)/2
+
+        root = media
 
         if (f(root)* f(a) < 0):
+
             b = root
     
         elif (f(root) * f(b) < 0):
