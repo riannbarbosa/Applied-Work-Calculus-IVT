@@ -1,4 +1,4 @@
-# Applied Work (Calculus TVI)
+# Applied Work (Calculus IVT)
 
 
   Applied Work of Calculus I Discipline - GEX178
